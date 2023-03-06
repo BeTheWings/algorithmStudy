@@ -9,8 +9,7 @@ public class problme29 {
 		String first = sc.next();
 		String second = sc.next();
 		
-		ArrayList<Character>sArr = new ArrayList<Character>();
-		/*HashMap에 T는 char value 는 Integer*/
+		ArrayList<Character>sArr = new ArrayList<Character>();	
 
 		for(char c :first.toCharArray()) {
 			sArr.add(c);
@@ -45,9 +44,6 @@ public class problme29 {
 		}
 					
 		System.out.println(count);
-		
-		
-			
 	}
 
 }
